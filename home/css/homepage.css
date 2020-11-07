@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+}
+.background__img{
+    position: absolute;
+    width: 100vw;
+    top: 0%;
+    margin: 0%;
+    z-index: -2;
+}
+
+.welcome__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 0px 30px;
+    top:30%;
+    background-color: rgba(229, 229, 229, 0.7);
+}
+.welcome__text{
+    align-self: baseline;
+    margin: 30px 40px;
+    color: #575757;
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-link{
+    color: #575757;
+    font-weight: 700;
+    margin: 10px 15px;
+    font-size: 20px; 
+}
+@media screen and (max-width:1200px){
+    .nav-link{
+        margin: 10px 0px;
+        font-size: 20px; 
+    } 
+}
