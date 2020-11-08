@@ -2,10 +2,10 @@
 {
     border: 0px solid;
     background-color:whitesmoke;
-    height:45vh;
+    height:35vh;
     padding: 10px 50px 30px 0;
     text-align: center;
-    margin-top: 4vh;
+    margin-top: 1vh;
 }
 
 .Resources .title
@@ -25,7 +25,7 @@ nav {
     float: left;
     color: black;
     width: 35vh;
-    height: 15vh;
+    height: 11vh;
     line-height: 9vh;
     font-size: xx-large;
     font-weight: bolder;
@@ -34,6 +34,7 @@ nav {
     cursor: pointer;
     font-size: 17px;
     list-style-type: none;
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 .sub-menu {
@@ -43,9 +44,9 @@ nav {
   }
 .sub-menu li {
     font-size: 14px;
-    background: rgba(0, 0, 0, 0.8);
+    background: #e0e0e0;
     padding: 8px 0;
-    color: white;
+    color:black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transform: scale(0);
     transform-origin: top center;
@@ -56,7 +57,7 @@ nav {
     border-bottom: 0;
   }
 .sub-menu li:hover {
-    background: black;
+    background: #c7bfbf;
   }
 .menu>li:hover .sub-menu li {
     transform: scale(1);
