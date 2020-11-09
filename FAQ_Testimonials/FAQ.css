@@ -40,7 +40,7 @@
   }
   
   #main #faq .card .card-header .btn-header-link:after {
-    content: "\f107";
+    content: "\f106" ;
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     float: right;
@@ -51,8 +51,8 @@
     color: #fff;
   }
   
-  #main #faq .card .card-header .btn-header-link.collapsed:after {
-    content: "\f106";
+  #main #faq .card .card-header .btn-header-link.collapsed::after {
+    content: "\f107" !important;
   }
   
   #main #faq .card .collapsing {
@@ -67,6 +67,7 @@
   .card-body{
       border: 1px solid #b0b0b0;
       border-radius: 5px;
+      background-color: white;
   }
   
   #main #faq .card .collapse.show {
