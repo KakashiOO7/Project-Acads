@@ -42,6 +42,7 @@ img {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  
 }
 .gallery__container > .gallery__crselect > button {
   margin: 5px 20px;
@@ -71,6 +72,14 @@ img {
 }
 .gallery__container > .gallery__crs > div {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  transition: all 0.4s ease !important;
+  -webkit-transition: all 0.4s ease !important;
+}
+.gallery__container > .gallery__crs > .gallery__crs__mnc {
+  display: none ;
   flex-direction: column;
   align-items: center;
   margin: 20px;
