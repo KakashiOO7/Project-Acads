@@ -15,13 +15,13 @@ body {
   align-items: center;
   position: absolute;
   padding: 0px 30px;
-  top: 17%;
+  top: 20%;
   background-color: rgba(229, 229, 229, 0.7);
 }
 .welcome__text {
   align-self: baseline;
   margin: 30px 10px;
-  color: #707070;
+  color: #5e5e5e;
   font-size: 3vw;
   font-weight: bold;
 }
@@ -32,17 +32,21 @@ body {
   font-size: 25px;
 }
 @media screen and (max-width: 1200px) {
-  .background__img {
-    position: relative;
-    width: 100vw;
-    margin-top: 15vh;
-    /* margin: 0%; */
-    z-index: -2;
-  }
-
   .nav-link {
     margin: 10px 0px;
     font-size: 20px;
+  }
+
+  .carousel {
+    margin-top: 15vh;
+  }
+
+  .welcome__div {
+    top: 16%;
+  }
+
+  .welcome__text {
+    margin: 15px 10px;
   }
 }
 .navbar {
