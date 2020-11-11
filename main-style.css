@@ -3,7 +3,7 @@ html {
 }
 
 .section-header {
-  font-size: 40px;
+  font-size: 40px !important;
   text-align: center;
   font-weight: bolder;
   color: #505050;

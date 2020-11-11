@@ -2,10 +2,10 @@
 document.getElementById("gallery__btn2018").onclick = function () {
   //color change
   document.getElementById("gallery__btn2018").style.color = "white";
-  document.getElementById("gallery__btn2018").style.backgroundColor = "black";
-  document.getElementById("gallery__btn2019").style.color = "black";
+  document.getElementById("gallery__btn2018").style.backgroundColor = "#505050";
+  document.getElementById("gallery__btn2019").style.color = "#505050";
   document.getElementById("gallery__btn2019").style.backgroundColor = "white";
-  document.getElementById("gallery__btn2017").style.color = "black";
+  document.getElementById("gallery__btn2017").style.color = "#505050";
   document.getElementById("gallery__btn2017").style.backgroundColor = "white";
 
   //data change
@@ -18,11 +18,11 @@ document.getElementById("gallery__btn2018").onclick = function () {
     "RAHUL GOYAT";
   //PHOTO CHANGE
   document.querySelector(".gallery__crs .gallery__crs__cse img").src =
-    "./photos/Siddharth_Singh_Solanki - Siddharth Solanki.JPG";
+    "./gallery/photos/Siddharth_Singh_Solanki - Siddharth Solanki.JPG";
   document.querySelector(".gallery__crs .gallery__crs__ee img").src =
-    "./photos/shubhanshu_tomer - Shubhanshu Tomar.jpg";
+    "./gallery/photos/shubhanshu_tomer - Shubhanshu Tomar.jpg";
   document.querySelector(".gallery__crs .gallery__crs__me img").src =
-    "./photos/rahul_goyat - Rahul Goyat.jpg";
+    "./gallery/photos/rahul_goyat - Rahul Goyat.jpg";
   //element hide
   document.querySelector(".gallery__crs .gallery__crs__mnc").style.display =
     "none";
@@ -30,10 +30,10 @@ document.getElementById("gallery__btn2018").onclick = function () {
 document.getElementById("gallery__btn2019").onclick = function () {
   //color change
   document.getElementById("gallery__btn2019").style.color = "white";
-  document.getElementById("gallery__btn2019").style.backgroundColor = "black";
-  document.getElementById("gallery__btn2018").style.color = "black";
+  document.getElementById("gallery__btn2019").style.backgroundColor = "#505050";
+  document.getElementById("gallery__btn2018").style.color = "#505050";
   document.getElementById("gallery__btn2018").style.backgroundColor = "white";
-  document.getElementById("gallery__btn2017").style.color = "black";
+  document.getElementById("gallery__btn2017").style.color = "#505050";
   document.getElementById("gallery__btn2017").style.backgroundColor = "white";
 
   //data change
@@ -47,13 +47,13 @@ document.getElementById("gallery__btn2019").onclick = function () {
     "MAYANK SHRESHTHA";
   //PHOTO CHANGE
   document.querySelector(".gallery__crs .gallery__crs__mnc img").src =
-    "./photos/Photograph - SATVIK BHATNAGAR.jpg";
+    "./gallery/photos/Photograph - SATVIK BHATNAGAR.jpg";
   document.querySelector(".gallery__crs .gallery__crs__cse img").src =
-    "./photos/Raghvendra_Singh - RAGHVENDRA SINGH.jpg";
+    "./gallery/photos/Raghvendra_Singh - RAGHVENDRA SINGH.jpg";
   document.querySelector(".gallery__crs .gallery__crs__ee img").src =
-    "./photos/Shubham_Garg - SHUBHAM GARG.jpg";
+    "./gallery/photos/Shubham_Garg - SHUBHAM GARG.jpg";
   document.querySelector(".gallery__crs .gallery__crs__me img").src =
-    "./photos/mayank_shreshtha - MAYANK SHRESHTHA.jpg";
+    "./gallery/photos/mayank_shreshtha - MAYANK SHRESHTHA.jpg";
   //element hide
   document.querySelector(".gallery__crs .gallery__crs__mnc").style.display =
     "flex";
@@ -62,10 +62,10 @@ document.getElementById("gallery__btn2019").onclick = function () {
 document.getElementById("gallery__btn2017").onclick = function () {
   //color change
   document.getElementById("gallery__btn2017").style.color = "white";
-  document.getElementById("gallery__btn2017").style.backgroundColor = "black";
-  document.getElementById("gallery__btn2019").style.color = "black";
+  document.getElementById("gallery__btn2017").style.backgroundColor = "#505050";
+  document.getElementById("gallery__btn2019").style.color = "#505050";
   document.getElementById("gallery__btn2019").style.backgroundColor = "white";
-  document.getElementById("gallery__btn2018").style.color = "black";
+  document.getElementById("gallery__btn2018").style.color = "#505050";
   document.getElementById("gallery__btn2018").style.backgroundColor = "white";
 
   //data change
@@ -78,11 +78,11 @@ document.getElementById("gallery__btn2017").onclick = function () {
     "RUTVIK KEVADIYA";
   // PHOTO CHANGE
   document.querySelector(".gallery__crs .gallery__crs__cse img").src =
-    "./photos/raj_jagtap - Raj Jagtap.JPG";
+    "./gallery/photos/raj_jagtap - Raj Jagtap.JPG";
   document.querySelector(".gallery__crs .gallery__crs__ee img").src =
-    "./photos/Satyendra - Satyendra IIT.jpg";
+    "./gallery/photos/Satyendra - Satyendra IIT.jpg";
   document.querySelector(".gallery__crs .gallery__crs__me img").src =
-    "./photos/Rutvik_Kevadiya - Kevadiya Jayeshbhai.jpg";
+    "./gallery/photos/Rutvik_Kevadiya - Kevadiya Jayeshbhai.jpg";
 
   //element hide
   document.querySelector(".gallery__crs .gallery__crs__mnc").style.display =
